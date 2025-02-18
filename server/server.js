@@ -31,7 +31,7 @@ try {
 }
 
 // Hugging Face API Key（请替换为你的 API Key）
-const HF_API_KEY = "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";
+const HF_API_KEY = "hf_";
 const HF_MODEL_URL = "https://api-inference.huggingface.co/models/facebook/blenderbot-400M-distill";
 
 // 1️⃣ 查找 JSON 语料库中的最佳匹配
