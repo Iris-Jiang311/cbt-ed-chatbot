@@ -18,7 +18,14 @@ function Chat() {
   const [userChoice, setUserChoice] = useState(null);
 //   用于滚动到底部
     const messagesEndRef = useRef(null);
+    
 
+    useEffect(() => {
+        if (userChoice !== null) {
+          console.log('User choice updated:', userChoice);
+        }
+      }, [userChoice]);
+      
   // 组件挂载时，自动显示欢迎问候信息
   useEffect(() => {
     const welcomeMessage = `😊🌱Welcome to BloomBud, Your Personal Growth Garden!
@@ -50,6 +57,8 @@ Please type a number:
  
      // 3) 分析 Wit.ai 的结果（可根据实际需求进行更多逻辑）
      const { intents = [], entities = {}, traits = {} } = witData;
+     console.log('Entities:', entities);
+     console.log('Traits:', traits);
      let topIntent = null;
      if (intents.length > 0) {
        topIntent = intents[0].name; // 最可能的意图名称
