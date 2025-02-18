@@ -1,0 +1,2904 @@
+[
+  {
+    "user_input": "I hate my reflection in the mirror.",
+    "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I binge eat when I'm alone.",
+    "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I feel guilty after eating certain foods.",
+    "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+    "cbt_category": "Cognitive Restructuring"
+  },
+  {
+    "user_input": "I eat to cope with my emotions.",
+    "bot_response": "You're not alone in this. What feelings often trigger this response?",
+    "cbt_category": "Emotional Coping"
+  },
+  {
+    "user_input": "I feel anxious when I don't track my calories.",
+    "bot_response": "That sounds stressful. What worries you most about not tracking?",
+    "cbt_category": "Emotional Coping"
+  },
+  {
+    "user_input": "I eat too fast and don't even enjoy my food.",
+    "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I wish I looked different.",
+    "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I eat even when I'm not hungry.",
+    "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I feel guilty after eating certain foods.",
+    "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+    "cbt_category": "Cognitive Restructuring"
+  },
+  {
+    "user_input": "I binge eat when I'm alone.",
+    "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I feel guilty after eating certain foods.",
+    "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+    "cbt_category": "Cognitive Restructuring"
+  },
+  {
+    "user_input": "I feel guilty after eating certain foods.",
+    "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+    "cbt_category": "Cognitive Restructuring"
+  },
+  {
+    "user_input": "I wish I looked different.",
+    "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I eat even when I'm not hungry.",
+    "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I wish I looked different.",
+    "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I feel guilty after eating certain foods.",
+    "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+    "cbt_category": "Cognitive Restructuring"
+  },
+  {
+    "user_input": "I feel ugly all the time.",
+    "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "Food is the only thing that comforts me.",
+    "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+    "cbt_category": "Emotional Coping"
+  },
+  {
+    "user_input": "I binge eat when I'm alone.",
+    "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I eat too fast and don't even enjoy my food.",
+    "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I wish I looked different.",
+    "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I eat too fast and don't even enjoy my food.",
+    "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I eat too fast and don't even enjoy my food.",
+    "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I eat to cope with my emotions.",
+    "bot_response": "You're not alone in this. What feelings often trigger this response?",
+    "cbt_category": "Emotional Coping"
+  },
+  {
+    "user_input": "I feel ugly all the time.",
+    "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I binge eat when I'm alone.",
+    "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I hate my reflection in the mirror.",
+    "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I eat even when I'm not hungry.",
+    "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I feel anxious when I don't track my calories.",
+    "bot_response": "That sounds stressful. What worries you most about not tracking?",
+    "cbt_category": "Emotional Coping"
+  },
+  {
+    "user_input": "I feel like I have no control over my eating.",
+    "bot_response": "Let's break this down. What situations make you feel this way?",
+    "cbt_category": "Cognitive Restructuring"
+  },
+  {
+    "user_input": "I eat to cope with my emotions.",
+    "bot_response": "You're not alone in this. What feelings often trigger this response?",
+    "cbt_category": "Emotional Coping"
+  },
+  {
+    "user_input": "I hate my reflection in the mirror.",
+    "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I feel ugly all the time.",
+    "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I eat too fast and don't even enjoy my food.",
+    "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I eat even when I'm not hungry.",
+    "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I binge eat when I'm alone.",
+    "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I feel like I have no control over my eating.",
+    "bot_response": "Let's break this down. What situations make you feel this way?",
+    "cbt_category": "Cognitive Restructuring"
+  },
+  {
+    "user_input": "I eat even when I'm not hungry.",
+    "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I eat too fast and don't even enjoy my food.",
+    "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I feel guilty after eating certain foods.",
+    "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+    "cbt_category": "Cognitive Restructuring"
+  },
+  {
+    "user_input": "Food is the only thing that comforts me.",
+    "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+    "cbt_category": "Emotional Coping"
+  },
+  {
+    "user_input": "I wish I looked different.",
+    "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I feel like I have no control over my eating.",
+    "bot_response": "Let's break this down. What situations make you feel this way?",
+    "cbt_category": "Cognitive Restructuring"
+  },
+  {
+    "user_input": "I eat even when I'm not hungry.",
+    "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I feel anxious when I don't track my calories.",
+    "bot_response": "That sounds stressful. What worries you most about not tracking?",
+    "cbt_category": "Emotional Coping"
+  },
+  {
+    "user_input": "I feel ugly all the time.",
+    "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I eat even when I'm not hungry.",
+    "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "Food is the only thing that comforts me.",
+    "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+    "cbt_category": "Emotional Coping"
+  },
+  {
+    "user_input": "I eat too fast and don't even enjoy my food.",
+    "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I eat too fast and don't even enjoy my food.",
+    "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I eat to cope with my emotions.",
+    "bot_response": "You're not alone in this. What feelings often trigger this response?",
+    "cbt_category": "Emotional Coping"
+  },
+  {
+    "user_input": "I feel anxious when I don't track my calories.",
+    "bot_response": "That sounds stressful. What worries you most about not tracking?",
+    "cbt_category": "Emotional Coping"
+  },
+  {
+    "user_input": "I eat too fast and don't even enjoy my food.",
+    "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I feel like I have no control over my eating.",
+    "bot_response": "Let's break this down. What situations make you feel this way?",
+    "cbt_category": "Cognitive Restructuring"
+  },
+  {
+    "user_input": "I hate my reflection in the mirror.",
+    "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I wish I looked different.",
+    "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I feel anxious when I don't track my calories.",
+    "bot_response": "That sounds stressful. What worries you most about not tracking?",
+    "cbt_category": "Emotional Coping"
+  },
+  {
+    "user_input": "I eat too fast and don't even enjoy my food.",
+    "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I eat even when I'm not hungry.",
+    "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I hate my reflection in the mirror.",
+    "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I feel guilty after eating certain foods.",
+    "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+    "cbt_category": "Cognitive Restructuring"
+  },
+  {
+    "user_input": "I eat too fast and don't even enjoy my food.",
+    "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I binge eat when I'm alone.",
+    "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I eat too fast and don't even enjoy my food.",
+    "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I feel guilty after eating certain foods.",
+    "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+    "cbt_category": "Cognitive Restructuring"
+  },
+  {
+    "user_input": "I hate my reflection in the mirror.",
+    "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I binge eat when I'm alone.",
+    "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I eat too fast and don't even enjoy my food.",
+    "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I binge eat when I'm alone.",
+    "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I wish I looked different.",
+    "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I binge eat when I'm alone.",
+    "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I feel anxious when I don't track my calories.",
+    "bot_response": "That sounds stressful. What worries you most about not tracking?",
+    "cbt_category": "Emotional Coping"
+  },
+  {
+    "user_input": "I feel ugly all the time.",
+    "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I wish I looked different.",
+    "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I hate my reflection in the mirror.",
+    "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I wish I looked different.",
+    "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I wish I looked different.",
+    "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+    "cbt_category": "Body Image Reframing"
+  },
+  {
+    "user_input": "I eat too fast and don't even enjoy my food.",
+    "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+    "cbt_category": "Mindful Eating"
+  },
+  {
+    "user_input": "I feel like I have no control over my eating.",
+    "bot_response": "Let's break this down. What situations make you feel this way?",
+    "cbt_category": "Cognitive Restructuring"
+  },
+  {
+    "user_input": "I feel anxious when I don't track my calories.",
+    "bot_response": "That sounds stressful. What worries you most about not tracking?",
+    "cbt_category": "Emotional Coping"
+  },
+  [
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I binge eat when I'm alone.",
+      "bot_response": "That must feel overwhelming. What usually leads to a binge episode?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I hate my reflection in the mirror.",
+      "bot_response": "Mirrors can be tricky. Can you name one thing you appreciate about yourself?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat even when I'm not hungry.",
+      "bot_response": "Recognizing hunger cues is important. What emotions do you feel before eating?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel anxious when I don't track my calories.",
+      "bot_response": "That sounds stressful. What worries you most about not tracking?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I feel ugly all the time.",
+      "bot_response": "Beauty is more than appearance. Can we explore what makes you feel this way?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I feel like I have no control over my eating.",
+      "bot_response": "Let's break this down. What situations make you feel this way?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "Food is the only thing that comforts me.",
+      "bot_response": "Comfort is important. Can we explore non-food ways to find comfort?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I eat to cope with my emotions.",
+      "bot_response": "You're not alone in this. What feelings often trigger this response?",
+      "cbt_category": "Emotional Coping"
+    },
+    {
+      "user_input": "I always overeat when I'm stressed.",
+      "bot_response": "Stress eating can be hard to manage. Have you noticed any patterns?",
+      "cbt_category": "Cognitive Restructuring"
+    },
+    {
+      "user_input": "I wish I looked different.",
+      "bot_response": "It sounds like you're struggling with self-image. Can we find things you value beyond appearance?",
+      "cbt_category": "Body Image Reframing"
+    },
+    {
+      "user_input": "I eat too fast and don't even enjoy my food.",
+      "bot_response": "Slowing down can help. Have you tried mindful eating techniques?",
+      "cbt_category": "Mindful Eating"
+    },
+    {
+      "user_input": "I feel guilty after eating certain foods.",
+      "bot_response": "Food doesn't define your worth. What makes you feel guilty about it?",
+      "cbt_category": "Cognitive Restructuring"
+    }
+  ]
+]
