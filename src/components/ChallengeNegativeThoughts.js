@@ -5,7 +5,7 @@ import { collection, addDoc } from "firebase/firestore";
 import "../styles/Chat.css";
 
 const BOT_AVATAR = "/chatbot_avatar.png";
-const API_URL = "https://cbt-ed-chatbot.onrender.com/chatbot";  // 连接 Express API
+const API_URL = process.env.REACT_APP_API_URL + "/chatbot";  // 使用环境变量
 
 function ChallengeNegativeThoughts({ onExit }) {
   const [messages, setMessages] = useState([
@@ -27,7 +27,7 @@ function ChallengeNegativeThoughts({ onExit }) {
         message: userInput,
         timestamp: new Date(),
       });
-      console.log("✅ Negative thought logged to Firestore.");
+      console.log("✅ Negative thought logged to Firestore:", userInput);
     } catch (error) {
       console.error("❌ Firestore Error:", error);
     }
@@ -40,6 +40,10 @@ function ChallengeNegativeThoughts({ onExit }) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: userInput }),
       });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
 
       const data = await response.json();
       if (data.response) {
