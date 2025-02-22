@@ -108,7 +108,7 @@ function GetSelfCareTips({ onExit }) {
   // Function to call server.js API
   const fetchChatbotResponse = async (message) => {
     try {
-      const response = await axios.post('http://localhost:5001/chatbot', { message });
+      const response = await axios.post('https://cbt-ed-chatbot.onrender.com/chatbot', { message });
       return response.data.response;
     } catch (error) {
       console.error("Error fetching chatbot response:", error);

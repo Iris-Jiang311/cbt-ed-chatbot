@@ -34,7 +34,7 @@ function TrackMyMood({ onExit }) {
     // **调用 `server.js` 处理 AI 生成回复**
     let reply = "Great job tracking your activity! Regular reflection can help you identify positive patterns. 🌟";
     try {
-      const response = await axios.post("http://localhost:5001/chatbot", {
+      const response = await axios.post("https://cbt-ed-chatbot.onrender.com/chatbot", {
         message: userInput,
       });
 

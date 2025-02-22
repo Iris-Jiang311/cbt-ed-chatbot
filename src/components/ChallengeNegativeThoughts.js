@@ -5,7 +5,7 @@ import { collection, addDoc } from "firebase/firestore";
 import "../styles/Chat.css";
 
 const BOT_AVATAR = "/chatbot_avatar.png";
-const API_URL = "http://localhost:5001/chatbot"; // 连接 Express API
+const API_URL = "https://cbt-ed-chatbot.onrender.com/chatbot";  // 连接 Express API
 
 function ChallengeNegativeThoughts({ onExit }) {
   const [messages, setMessages] = useState([
