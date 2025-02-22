@@ -1,42 +1,53 @@
-// src/components/LogMyBehavior.js
-import React, { useState } from 'react';
-import { callWitApi } from '../witApi';
-import '../styles/Chat.css';
+// src/components/TrackMyMood.js
+import React, { useState } from "react";
+import { db } from "../firebaseConfig";
+import { collection, addDoc } from "firebase/firestore";
+import axios from "axios";
+import "../styles/Chat.css";
 
-const BOT_AVATAR = '/chatbot_avatar.png';
+const BOT_AVATAR = "/chatbot_avatar.png";
 
-function LogMyBehavior({ onExit }) {
+function TrackMyMood({ onExit }) {
   const [messages, setMessages] = useState([
     { sender: 'bot', text: "📝 **Behavioral Activation Log**\n📅 Date/Time\n🤸‍♂️ Activity\n💜 Mood Before (0-10)\n💚 Mood After (0-10)\n📒 Notes (What helped? What didn’t?)" },
     { sender: 'bot', text: "Let's reflect on your activities today! What was one activity you engaged in?" }
   ]);
-  const [userInput, setUserInput] = useState('');
+  const [userInput, setUserInput] = useState("");
 
   const handleSend = async () => {
     if (!userInput.trim()) return;
-    const userMessage = { sender: 'user', text: userInput };
+
+    const userMessage = { sender: "user", text: userInput };
     setMessages((prev) => [...prev, userMessage]);
 
-    const witData = await callWitApi(userInput);
-    console.log("Wit.ai Response:", witData);
-
-    let reply = "Great job tracking your activity! Regular reflection can help you identify positive patterns. 🌟";
-
-    if (witData.entities.behavior_type) {
-      const activity = witData.entities.behavior_type[0].value;
-      reply = `Engaging in ${activity} sounds like a productive step! How did it make you feel before and after? 💙`;
-    } else if (witData.entities["wit/number"]?.length >= 2) {
-      const moodBefore = witData.entities["wit/number"][0].value;
-      const moodAfter = witData.entities["wit/number"][1].value;
-      if (moodAfter > moodBefore) {
-        reply = "It looks like this activity had a positive impact on your mood! 🌿 Keep doing what works for you!";
-      } else {
-        reply = "It seems this activity didn't improve your mood much. That’s okay! Maybe we can explore alternatives together? 🌱";
-      }
+    // **存储数据到 Firestore**
+    try {
+      await addDoc(collection(db, "behavior_logs"), {
+        moodEntry: userInput,
+        timestamp: new Date(),
+      });
+      console.log("✅ behavior_logs entry logged to Firestore.");
+    } catch (error) {
+      console.error("❌ Firestore Error:", error);
     }
 
-    setMessages((prev) => [...prev, { sender: 'bot', text: reply }]);
-    setUserInput('');
+    // **调用 `server.js` 处理 AI 生成回复**
+    let reply = "Great job tracking your activity! Regular reflection can help you identify positive patterns. 🌟";
+    try {
+      const response = await axios.post("http://localhost:5001/chatbot", {
+        message: userInput,
+      });
+
+      if (response.data.response) {
+        reply = response.data.response;
+      }
+    } catch (error) {
+      console.error("❌ Server Error:", error);
+      reply = "Sorry, I'm having trouble responding right now. 💙";
+    }
+
+    setMessages((prev) => [...prev, { sender: "bot", text: reply }]);
+    setUserInput("");
   };
 
   return (
@@ -47,10 +58,12 @@ function LogMyBehavior({ onExit }) {
       </div>
       <div className="chat-messages">
         {messages.map((msg, index) => (
-          <div key={index} className={`message-row ${msg.sender === 'bot' ? 'bot' : 'user'}`}>
-            {msg.sender === 'bot' && <img src={BOT_AVATAR} alt="Bot" className="avatar bot-avatar" />}
-            <div className={`message-bubble ${msg.sender === 'bot' ? 'bot-bubble' : 'user-bubble'}`}>
-              {msg.text.split("\n").map((line, i) => <p key={i}>{line}</p>)}
+          <div key={index} className={`message-row ${msg.sender === "bot" ? "bot" : "user"}`}>
+            {msg.sender === "bot" && <img src={BOT_AVATAR} alt="Bot" className="avatar bot-avatar" />}
+            <div className={`message-bubble ${msg.sender === "bot" ? "bot-bubble" : "user-bubble"}`}>
+              {msg.text.split("\n").map((line, i) => (
+                <p key={i}>{line}</p>
+              ))}
             </div>
           </div>
         ))}
@@ -61,15 +74,15 @@ function LogMyBehavior({ onExit }) {
           placeholder="Log your activity here..."
           value={userInput}
           onChange={(e) => setUserInput(e.target.value)}
-          onKeyDown={(e) => e.key === 'Enter' && handleSend()}
+          onKeyDown={(e) => e.key === "Enter" && handleSend()}
         />
         <button onClick={handleSend}>Send</button>
       </div>
       <div className="chat-footer">
-        <button className="back-to-menu" onClick={onExit}>🔙</button>
+        <button className="back-to-menu" onClick={onExit}>⬅️</button>
       </div>
     </div>
   );
 }
 
-export default LogMyBehavior;
+export default TrackMyMood;

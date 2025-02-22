@@ -4,7 +4,7 @@ import ChallengeNegativeThoughts from './ChallengeNegativeThoughts';
 import TrackMyMood from './TrackMyMood';
 import LogMyBehavior from './LogMyBehavior';
 import GetSelfCareTips from './GetSelfCareTips';
-import { callWitApi } from '../witApi';
+
 import '../styles/Chat.css';
 
 const BOT_AVATAR = '/chatbot_avatar.png';
