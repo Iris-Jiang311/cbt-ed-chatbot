@@ -22,8 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# ignore Firebase
-firebaseConfig.js
 
 # ignore env files
 .env
