@@ -6,14 +6,23 @@ const OpenAI = require("openai");
 
 const app = express();
 const PORT = process.env.PORT || 5001; // ✅ 让 Render 自动分配端口
+console.log("🔍 Checking OpenAI API Key:", process.env.OPENAI_API_KEY ? "✅ Loaded" : "❌ Missing");
 
-// ✅ 允许 Netlify 访问后端
+// // ✅ 允许 Netlify 访问后端
+// app.use(cors({
+//     // origin: "https://merry-gecko-690ad7.netlify.app", // 替换为你的 Netlify 前端地址
+//     origin: "http://localhost:3000",  
+//     methods: ["POST"],
+//     allowedHeaders: ["Content-Type"]
+// }));
+
 app.use(cors({
-    // origin: "https://merry-gecko-690ad7.netlify.app", // 替换为你的 Netlify 前端地址
-    origin: "http://localhost:3000",  
-    methods: ["POST"],
-    allowedHeaders: ["Content-Type"]
+    origin: ["http://localhost:3000", "https://merry-gecko-690ad7.netlify.app"], // ✅ 允许本地开发 & 部署地址
+    methods: ["GET", "POST", "OPTIONS"], // ✅ 确保 OPTIONS 请求也被允许
+    allowedHeaders: ["Content-Type"],
+    credentials: true // ✅ 如果有身份验证，启用 credentials
 }));
+
 app.use(express.json());
 
 // **🔹 1. 配置 OpenAI API**
