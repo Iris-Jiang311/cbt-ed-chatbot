@@ -7,7 +7,7 @@ import "../styles/Chat.css";
 const BOT_AVATAR = "/chatbot_avatar.png";
 const API_URL = process.env.REACT_APP_API_URL + "/chatbot";  // 使用环境变量
 
-function ChallengeNegativeThoughts({ onExit }) {
+function ChallengeNegativeThoughts({ onExit, username }) {
   const [messages, setMessages] = useState([
     { sender: "bot", text: "Great choice! 🌱 Let's challenge those negative thoughts together." },
     { sender: "bot", text: "Negative thoughts can feel overwhelming, but they are often based on distortions rather than reality. Let's work through one together!" },
@@ -23,7 +23,7 @@ function ChallengeNegativeThoughts({ onExit }) {
 
     // **存储用户消息到 Firebase**
     try {
-      await addDoc(collection(db, "negative_thoughts"), {
+      await addDoc(collection(db, "users", username, "negative_thoughts"), {
         message: userInput,
         timestamp: new Date(),
       });
