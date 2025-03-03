@@ -6,9 +6,9 @@ import axios from "axios";
 import "../styles/Chat.css";
 
 const BOT_AVATAR = "/chatbot_avatar.png";
-const API_URL = process.env.REACT_APP_API_URL + "/chatbot"; // ✅ 通过环境变量设置 API
+const API_URL = process.env.REACT_APP_API_URL + "/chatbot"; // 通过环境变量设置 API
 
-function LogMyBehavior({ onExit }) {
+function LogMyBehavior({ onExit, username }) {
   const [messages, setMessages] = useState([
     { sender: 'bot', text: "📝 **Behavioral Activation Log**\n📅 Date/Time\n🤸‍♂️ Activity\n💜 Mood Before (0-10)\n💚 Mood After (0-10)\n📒 Notes (What helped? What didn’t?)" },
     { sender: 'bot', text: "Let's reflect on your activities today! What was one activity you engaged in?" }
@@ -24,22 +24,21 @@ function LogMyBehavior({ onExit }) {
     const userMessage = { sender: "user", text: userInput };
     setMessages((prev) => [...prev, userMessage]);
 
-    // **存储数据到 Firestore**
+    // 将行为日志存储到 Firebase 中对应用户下的 behavior_logs 子集合
     try {
-      const docRef = await addDoc(collection(db, "behavior_logs"), {
-        moodEntry: userInput,
-        timestamp: serverTimestamp(), // ✅ 使用 Firebase 服务器时间
+      const docRef = await addDoc(collection(db, "users", username, "behavior_logs"), {
+        behaviorEntry: userInput,
+        timestamp: serverTimestamp(), // 使用 Firebase 服务器时间
       });
-      console.log("📌 behavior_logs entry saved:", docRef.id);
+      console.log("📌 Behavior log saved for user", username, "with ID:", docRef.id);
     } catch (error) {
       console.error("❌ Firestore Error:", error);
     }
 
-    // **调用后端 API 生成 AI 反馈**
+    // 调用后端 API 生成 AI 反馈
     let reply = "Great job tracking your activity! Regular reflection can help you identify positive patterns. 🌟";
     try {
       const response = await axios.post(API_URL, { message: userInput });
-
       if (response.data.response) {
         reply = response.data.response;
       }
@@ -78,7 +77,9 @@ function LogMyBehavior({ onExit }) {
           onKeyDown={(e) => e.key === "Enter" && handleSend()}
           disabled={loading}
         />
-        <button onClick={handleSend} disabled={loading}>{loading ? "..." : "Send"}</button>
+        <button onClick={handleSend} disabled={loading}>
+          {loading ? "..." : "Send"}
+        </button>
       </div>
       <div className="chat-footer">
         <button className="back-to-menu" onClick={onExit}>⬅️</button>

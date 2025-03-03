@@ -9,7 +9,8 @@ const PORT = process.env.PORT || 5001; // ✅ 让 Render 自动分配端口
 
 // ✅ 允许 Netlify 访问后端
 app.use(cors({
-    origin: "https://merry-gecko-690ad7.netlify.app", // 替换为你的 Netlify 前端地址
+    // origin: "https://merry-gecko-690ad7.netlify.app", // 替换为你的 Netlify 前端地址
+    origin: "http://localhost:3000",  
     methods: ["POST"],
     allowedHeaders: ["Content-Type"]
 }));
