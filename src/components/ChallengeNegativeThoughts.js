@@ -38,7 +38,7 @@ function ChallengeNegativeThoughts({ onExit, username }) {
       const response = await fetch(API_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: userInput }),
+        body: JSON.stringify({ name: username, message: userInput }),
       });
 
       if (!response.ok) {
