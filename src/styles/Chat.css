@@ -149,25 +149,27 @@
     }
   }
   
-  /* 让 Back to Menu 按钮符合整体风格 */
-  .back-to-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #e8f5e9; /* 柔和的绿色背景 */
-    color: #2e7d32; /* 深绿色字体 */
-    font-size: 1rem;
-    padding: 10px 15px;
-    border: 2px solid #c8e6c9;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-top: 10px;
-    width: fit-content;
-  }
-  
-  .back-to-menu:hover {
-    background-color: #c8e6c9; /* 鼠标悬停时更深一点的绿色 */
-    transform: scale(1.05);
-  }
-  
+  /* 🔹 修改 Back 按钮样式 */
+.back-to-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8f5e9; /* 柔和的绿色背景 */
+  color: #2e7d32; /* 深绿色字体 */
+  font-size: 1rem;
+  padding: 8px 12px; /* ✅ 缩小按钮内边距 */
+  border: 2px solid #c8e6c9;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+  max-width: 120px; /* ✅ 限制按钮最大宽度 */
+  width: auto; /* ✅ 让按钮根据内容大小自适应 */
+  text-align: center;
+}
+
+/* ✅ 鼠标悬停时按钮略微放大 */
+.back-to-menu:hover {
+  background-color: #c8e6c9;
+  transform: scale(1.05);
+}

@@ -1,0 +1,64 @@
+/* 🔹 悬浮按钮 */
+.widget-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50; /* 绿色背景 */
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .widget-button:hover {
+    background-color: #388e3c;
+  }
+  
+  /* 🔹 展开的窗口 */
+  .widget-content {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+  }
+  
+  .widget-content h3 {
+    font-size: 1.2rem;
+    color: #2e7d32;
+    margin-bottom: 10px;
+  }
+  
+  .widget-content p {
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  /* 🔹 列表样式 */
+  .widget-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .widget-content li {
+    margin: 8px 0;
+  }
+  
+  .widget-content a {
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  
+  .widget-content a:hover {
+    text-decoration: underline;
+  }
+  

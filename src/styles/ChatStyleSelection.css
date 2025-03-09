@@ -1,0 +1,92 @@
+/* 🔹 统一聊天界面布局 */
+.chat-container {
+    width: 100%;
+    max-width: 420px;
+    background-color: #fff;
+    border: 2px solid #c8e6c9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* 🔹 头部 */
+  .chat-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #e8f5e9;
+    border-bottom: 1px solid #c8e6c9;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .chatbot-avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .chat-title {
+    font-size: 1.5rem;
+    color: #2e7d32;
+    margin: 0;
+  }
+  
+  /* 🔹 消息区 */
+  .chat-messages {
+    padding: 10px;
+  }
+  
+  /* 🔹 让 Bot 消息气泡保持一致 */
+  .message-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .message-bubble {
+    max-width: 70%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background-color: #e0f7e9;
+    color: #2e7d32;
+    border-top-left-radius: 0;
+  }
+  
+  .avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* 🔹 让 Yes/No 和 Style 按钮统一风格 */
+  .auth-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .auth-option {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    border: 2px solid #c8e6c9;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 10px;
+    width: 45%;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .auth-option:hover {
+    background-color: #c8e6c9;
+  }
+  

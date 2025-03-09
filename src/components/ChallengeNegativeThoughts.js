@@ -1,11 +1,10 @@
-// src/components/ChallengeNegativeThoughts.js
 import React, { useState } from "react";
+import axios from "axios";
 import { db } from "../firebaseConfig";
 import { collection, addDoc } from "firebase/firestore";
 import "../styles/Chat.css";
 
 const BOT_AVATAR = "/chatbot_avatar.png";
-const API_URL = process.env.REACT_APP_API_URL + "/chatbot";  // 使用环境变量
 
 function ChallengeNegativeThoughts({ onExit, username }) {
   const [messages, setMessages] = useState([
@@ -14,49 +13,42 @@ function ChallengeNegativeThoughts({ onExit, username }) {
     { sender: "bot", text: "Could you share a recent negative thought that bothered you?" }
   ]);
   const [userInput, setUserInput] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleSend = async () => {
-    if (!userInput.trim()) return;
-    
+    if (!userInput.trim() || loading) return; // ✅ 防止重复提交
+    setLoading(true);
+  
     const userMessage = { sender: "user", text: userInput };
     setMessages((prev) => [...prev, userMessage]);
-
-    // **存储用户消息到 Firebase**
+    setUserInput("");
+  
     try {
-      await addDoc(collection(db, "users", username, "negative_thoughts"), {
+      const response = await axios.post("http://localhost:5001/chatbot", {
         message: userInput,
+        username: username || "guest",
+      });
+  
+      const botReply = response.data.response;
+      const botMessage = { sender: "bot", text: botReply };
+      setMessages((prev) => [...prev, botMessage]);
+  
+      // ✅ 只执行一次 `addDoc()` 存储到 Firebase
+      await addDoc(collection(db, "users", username, "negative_thoughts"), {
+        user_input: userInput,
+        bot_response: botReply,
+        source: response.data.source,
         timestamp: new Date(),
       });
-      console.log("✅ Negative thought logged to Firestore:", userInput);
+  
     } catch (error) {
-      console.error("❌ Firestore Error:", error);
+      console.error("❌ API Error:", error);
+      setMessages((prev) => [...prev, { sender: "bot", text: "Sorry, something went wrong. Please try again later." }]);
+    } finally {
+      setLoading(false);
     }
-
-    // **调用 AI 生成回复**
-    let reply = "That's a tough thought to deal with. Let's work through it together. 💙";
-    try {
-      const response = await fetch(API_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name: username, message: userInput }),
-      });
-
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-
-      const data = await response.json();
-      if (data.response) {
-        reply = data.response;
-      }
-    } catch (error) {
-      console.error("❌ Server Error:", error);
-      reply = "Sorry, I'm having trouble responding right now. 💙";
-    }
-
-    setMessages((prev) => [...prev, { sender: "bot", text: reply }]);
-    setUserInput("");
   };
+  
 
   return (
     <div className="chat-container">
@@ -75,17 +67,11 @@ function ChallengeNegativeThoughts({ onExit, username }) {
         ))}
       </div>
       <div className="chat-input-container">
-        <input
-          type="text"
-          placeholder="Type your response..."
-          value={userInput}
-          onChange={(e) => setUserInput(e.target.value)}
-          onKeyDown={(e) => e.key === "Enter" && handleSend()}
-        />
-        <button onClick={handleSend}>Send</button>
+        <input type="text" placeholder="Type your response..." value={userInput} onChange={(e) => setUserInput(e.target.value)} onKeyDown={(e) => e.key === "Enter" && handleSend()} />
+        <button onClick={handleSend} disabled={loading}>Send</button>
       </div>
       <div className="chat-footer">
-        <button className="back-to-menu" onClick={onExit}>⬅️</button>
+        <button className="back-to-menu" onClick={onExit}>⬅️ Back</button>
       </div>
     </div>
   );
