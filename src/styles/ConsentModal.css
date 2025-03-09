@@ -1,0 +1,79 @@
+/* 模态框背景 */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* 半透明黑色背景 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  /* 模态框内容 */
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    max-width: 420px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* 标题 */
+  .modal-content h2 {
+    font-size: 1.5rem;
+    color: #2e7d32;
+    margin-bottom: 10px;
+  }
+  
+  /* 文本内容 */
+  .modal-content p {
+    font-size: 0.9rem;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  /* 按钮容器 */
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  /* 拒绝按钮 */
+  .decline-btn {
+    background-color: #e57373;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 45%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .decline-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* 接受按钮 */
+  .accept-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 45%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .accept-btn:hover {
+    background-color: #388e3c;
+  }
+  

@@ -1,0 +1,79 @@
+/* 🔹 让注册界面的输入框样式和 Login 保持一致 */
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .register-form input {
+    width: 80%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* 🔹 让 Back 和 Register 在同一行 */
+  .register-buttons {
+    display: flex;
+    justify-content: space-between; /* ✅ 确保左右对齐 */
+    align-items: center; /* ✅ 确保垂直对齐 */
+    width: 100%;
+    max-width: 260px; /* ✅ 限制整体宽度 */
+    margin-top: 15px;
+    gap: 10px; /* ✅ 让两个按钮有间距 */
+  }
+  
+  /* 🔹 让 Back 和 Register 按钮完全一致 */
+  .register-buttons button {
+    flex: 1; /* ✅ 让两个按钮平分空间 */
+    width: 50%; /* ✅ 让两个按钮等宽 */
+    height: 40px; /* ✅ 让按钮高度一致 */
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 2px solid #c8e6c9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    box-sizing: border-box; /* ✅ 确保 padding 和 border 不影响大小 */
+  }
+  
+  /* ✅ 让两个按钮 Hover 效果一致 */
+  .register-buttons button:hover {
+    background-color: #c8e6c9;
+    transform: scale(1.05);
+  }
+  
+  /* 🔹 让 Bot 消息气泡保持和 Login 一致 */
+  .message-row.bot {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .message-bubble {
+    max-width: 65%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background-color: #e0f7e9;
+    color: #2e7d32;
+    border-top-left-radius: 0;
+  }
+  
+  /* 头像 */
+  .avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
