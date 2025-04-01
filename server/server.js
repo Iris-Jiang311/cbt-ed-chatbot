@@ -15,6 +15,16 @@ const serviceAccount = require("./firebaseServiceAccount.json");
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
+
+
+
+// const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT.replace(/\\n/g, '\n'));
+
+// admin.initializeApp({
+//   credential: admin.credential.cert(serviceAccount),
+// });
+
+
 const db = admin.firestore();
 
 const app = express();
