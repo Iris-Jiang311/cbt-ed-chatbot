@@ -25,7 +25,7 @@ const openai = new OpenAI({
 // });
 
 
-const serviceAccount = {
+const firebaseConfig = {
   type: "service_account",
   project_id: process.env.FIREBASE_PROJECT_ID,
   private_key_id: process.env.FIREBASE_PRIVATE_KEY_ID,
@@ -38,11 +38,14 @@ const serviceAccount = {
   client_x509_cert_url: `https://www.googleapis.com/robot/v1/metadata/x509/${encodeURIComponent(process.env.FIREBASE_CLIENT_EMAIL)}`
 };
 
+// ✅ 写入一个本地临时文件（Railway 容器支持）
+const path = "./tmp/firebase-key.json";
+fs.mkdirSync("./tmp", { recursive: true });
+fs.writeFileSync(path, JSON.stringify(firebaseConfig));
+
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
+  credential: admin.credential.cert(require(path)),
 });
-
-
 
 
 
