@@ -27,7 +27,7 @@ const openai = new OpenAI({
 
 const path = require("path");
 
-// ✅ 检查变量存在，防止漏填导致服务器启动失败
+// ✅ 检查变量是否存在
 ["FIREBASE_PROJECT_ID", "FIREBASE_PRIVATE_KEY_ID", "FIREBASE_PRIVATE_KEY", "FIREBASE_CLIENT_EMAIL", "FIREBASE_CLIENT_ID"].forEach((key) => {
   if (!process.env[key]) {
     console.error(`❌ Missing required env var: ${key}`);
@@ -35,10 +35,16 @@ const path = require("path");
   }
 });
 
-// ✅ 将 \\n 替换成真正的换行符（必须要做！）
-const cleanPrivateKey = process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n');
+// ✅ 处理自动加了引号的问题（Railway 特别坑）
+let rawKey = process.env.FIREBASE_PRIVATE_KEY;
+if (rawKey.startsWith('"') && rawKey.endsWith('"')) {
+  rawKey = rawKey.slice(1, -1); // 去掉开头结尾引号
+}
 
-// ✅ 构造 Firebase 凭证对象
+// ✅ 替换为真正的换行符
+const cleanPrivateKey = rawKey.replace(/\\n/g, '\n');
+
+// ✅ 构造 serviceAccount 对象
 const serviceAccount = {
   type: "service_account",
   project_id: process.env.FIREBASE_PROJECT_ID,
@@ -52,7 +58,7 @@ const serviceAccount = {
   client_x509_cert_url: `https://www.googleapis.com/robot/v1/metadata/x509/${encodeURIComponent(process.env.FIREBASE_CLIENT_EMAIL)}`
 };
 
-// ✅ 将对象写入本地 JSON 文件（适配 Firebase 的文件加载格式）
+// ✅ 写入临时文件以供 Firebase 加载（兼容格式）
 const tempPath = path.join(__dirname, "tmp");
 const keyPath = path.join(tempPath, "firebase-key.json");
 
@@ -63,7 +69,6 @@ fs.writeFileSync(keyPath, JSON.stringify(serviceAccount, null, 2));
 admin.initializeApp({
   credential: admin.credential.cert(require(keyPath)),
 });
-
 
 
 
