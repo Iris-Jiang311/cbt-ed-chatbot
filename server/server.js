@@ -24,20 +24,24 @@ const openai = new OpenAI({
 //   credential: admin.credential.cert(serviceAccount),
 // });
 
-let serviceAccount;
-try {
-  if (!process.env.FIREBASE_SERVICE_ACCOUNT) {
-    throw new Error("No env variable");
-  }
-  serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
-} catch (error) {
-  console.error("Failed to load Firebase config:", error.message);
-  process.exit(1); // 强制失败，避免使用不安全的后备方案
+if (!process.env.FIREBASE_SERVICE_ACCOUNT) {
+  console.error("❌ Missing FIREBASE_SERVICE_ACCOUNT environment variable");
+  process.exit(1);
 }
+
+const serviceAccount = JSON.parse(
+  process.env.FIREBASE_SERVICE_ACCOUNT.replace(/\\n/g, '\n')
+);
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
+
+
+
+
+
+
 
 const db = admin.firestore();
 
