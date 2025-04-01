@@ -25,11 +25,25 @@ const openai = new OpenAI({
 // });
 
 
-const firebaseConfig = {
+const path = require("path");
+
+// ✅ 检查变量存在，防止漏填导致服务器启动失败
+["FIREBASE_PROJECT_ID", "FIREBASE_PRIVATE_KEY_ID", "FIREBASE_PRIVATE_KEY", "FIREBASE_CLIENT_EMAIL", "FIREBASE_CLIENT_ID"].forEach((key) => {
+  if (!process.env[key]) {
+    console.error(`❌ Missing required env var: ${key}`);
+    process.exit(1);
+  }
+});
+
+// ✅ 将 \\n 替换成真正的换行符（必须要做！）
+const cleanPrivateKey = process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n');
+
+// ✅ 构造 Firebase 凭证对象
+const serviceAccount = {
   type: "service_account",
   project_id: process.env.FIREBASE_PROJECT_ID,
   private_key_id: process.env.FIREBASE_PRIVATE_KEY_ID,
-  private_key: process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n'),
+  private_key: cleanPrivateKey,
   client_email: process.env.FIREBASE_CLIENT_EMAIL,
   client_id: process.env.FIREBASE_CLIENT_ID,
   auth_uri: "https://accounts.google.com/o/oauth2/auth",
@@ -38,13 +52,16 @@ const firebaseConfig = {
   client_x509_cert_url: `https://www.googleapis.com/robot/v1/metadata/x509/${encodeURIComponent(process.env.FIREBASE_CLIENT_EMAIL)}`
 };
 
-// ✅ 写入一个本地临时文件（Railway 容器支持）
-const path = "./tmp/firebase-key.json";
-fs.mkdirSync("./tmp", { recursive: true });
-fs.writeFileSync(path, JSON.stringify(firebaseConfig));
+// ✅ 将对象写入本地 JSON 文件（适配 Firebase 的文件加载格式）
+const tempPath = path.join(__dirname, "tmp");
+const keyPath = path.join(tempPath, "firebase-key.json");
 
+if (!fs.existsSync(tempPath)) fs.mkdirSync(tempPath);
+fs.writeFileSync(keyPath, JSON.stringify(serviceAccount, null, 2));
+
+// ✅ 初始化 Firebase
 admin.initializeApp({
-  credential: admin.credential.cert(require(path)),
+  credential: admin.credential.cert(require(keyPath)),
 });
 
 
