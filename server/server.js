@@ -26,12 +26,13 @@ const openai = new OpenAI({
 
 let serviceAccount;
 try {
-  // 尝试从环境变量加载
-  serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT.replace(/\\n/g, '\n'));
+  if (!process.env.FIREBASE_SERVICE_ACCOUNT) {
+    throw new Error("No env variable");
+  }
+  serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
 } catch (error) {
-  console.error("Failed to parse Firebase config from env, trying file...");
-  // 回退到文件
-  serviceAccount = require("./firebaseServiceAccount.json");
+  console.error("Failed to load Firebase config:", error.message);
+  process.exit(1); // 强制失败，避免使用不安全的后备方案
 }
 
 admin.initializeApp({
