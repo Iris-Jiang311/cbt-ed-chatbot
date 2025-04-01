@@ -11,10 +11,10 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-const serviceAccount = require("./firebaseServiceAccount.json");
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-});
+// const serviceAccount = require("./firebaseServiceAccount.json");
+// admin.initializeApp({
+//   credential: admin.credential.cert(serviceAccount),
+// });
 
 // const serviceAccount = JSON.parse(
 //   process.env.FIREBASE_SERVICE_ACCOUNT.replace(/\\n/g, '\n')
@@ -24,7 +24,19 @@ admin.initializeApp({
 //   credential: admin.credential.cert(serviceAccount),
 // });
 
+let serviceAccount;
+try {
+  // 尝试从环境变量加载
+  serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT.replace(/\\n/g, '\n'));
+} catch (error) {
+  console.error("Failed to parse Firebase config from env, trying file...");
+  // 回退到文件
+  serviceAccount = require("./firebaseServiceAccount.json");
+}
 
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+});
 
 const db = admin.firestore();
 
