@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import AuthSelection from './components/AuthSelection';
 import Chat from './components/Chat';
 import ConsentModal from './components/ConsentModal'; // ✅ 引入用户须知弹窗
+import FloatingWidget from './components/FloatingWidget'; // ✅ 引入 FloatingWidget
 import './styles/Login.css';
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
       ) : (
         userEmail ? <Chat userEmail={userEmail} /> : <AuthSelection onAuthSuccess={setUserEmail} />
       )}
+      
+      {/* ✅ 悬浮按钮 */}
+      <FloatingWidget /> 
     </div>
   );
 }

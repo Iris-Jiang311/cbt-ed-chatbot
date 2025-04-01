@@ -6,7 +6,7 @@ import "../styles/Chat.css";
 
 const BOT_AVATAR = "/chatbot_avatar.png";
 
-function ChallengeNegativeThoughts({ onExit, username }) {
+function ChallengeNegativeThoughts({ onExit, username, chatStyle }) {
   const [messages, setMessages] = useState([
     { sender: "bot", text: "Great choice! 🌱 Let's challenge those negative thoughts together." },
     { sender: "bot", text: "Negative thoughts can feel overwhelming, but they are often based on distortions rather than reality. Let's work through one together!" },
@@ -27,19 +27,25 @@ function ChallengeNegativeThoughts({ onExit, username }) {
       const response = await axios.post("http://localhost:5001/chatbot", {
         message: userInput,
         username: username || "guest",
+        chatStyle: chatStyle || "direct"
       });
-  
+      console.log("✅ API Response:", response.data); // <--- add this line
+
       const botReply = response.data.response;
       const botMessage = { sender: "bot", text: botReply };
       setMessages((prev) => [...prev, botMessage]);
   
       // ✅ 只执行一次 `addDoc()` 存储到 Firebase
-      await addDoc(collection(db, "users", username, "negative_thoughts"), {
-        user_input: userInput,
-        bot_response: botReply,
-        source: response.data.source,
-        timestamp: new Date(),
-      });
+      if (botReply && response.data.source) {
+        await addDoc(collection(db, "users", username, "negative_thoughts"), {
+          // user_input: userInput,
+          bot_response: botReply,
+          source: response.data.source,
+          sentiment_score: response.data.sentiment_score || 0,
+          chat_style: response.data.current_chat_style || chatStyle || "direct",
+          timestamp: new Date(),
+        });
+      }
   
     } catch (error) {
       console.error("❌ API Error:", error);
@@ -47,6 +53,7 @@ function ChallengeNegativeThoughts({ onExit, username }) {
     } finally {
       setLoading(false);
     }
+    
   };
   
 
@@ -76,5 +83,7 @@ function ChallengeNegativeThoughts({ onExit, username }) {
     </div>
   );
 }
+
+
 
 export default ChallengeNegativeThoughts;

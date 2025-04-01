@@ -1,8 +1,671 @@
 [
-  {
-      "user_input": "I avoid social events because I don’t want to eat in front of others.",
-      "bot_response": "That sounds really tough. Have you noticed any patterns in when these thoughts arise?",
-      "cbt_category": "Mindfulness & Distress Tolerance"
+    {
+        "user_input": "hi",
+        "bot_response": "Hi there. No pressure—take your time. I’m here when you’re ready to talk.",
+        "cbt_category": "Greeting & Trust-Building",
+        "style": "gentle"
+      },
+      {
+        "user_input": "hi",
+        "bot_response": "Hey. Want to talk about what’s been going on?",
+        "cbt_category": "Greeting & Trust-Building",
+        "style": "direct"
+      },
+      {
+        "user_input": "i don’t really know what to say",
+        "bot_response": "That’s totally okay. You don’t need the right words—just showing up matters.",
+        "cbt_category": "Validation & Emotional Support",
+        "style": "gentle"
+      },
+      {
+        "user_input": "i don’t really know what to say",
+        "bot_response": "That’s fine. Let’s start simple—what’s been hardest lately?",
+        "cbt_category": "Validation & Emotional Support",
+        "style": "direct"
+      },
+      {
+        "user_input": "just testing this thing out",
+        "bot_response": "I’m glad you are. You’re welcome to stay as long as you like.",
+        "cbt_category": "Greeting & Trust-Building",
+        "style": "gentle"
+      },
+      {
+        "user_input": "just testing this thing out",
+        "bot_response": "Cool. If anything comes up, I’m here.",
+        "cbt_category": "Greeting & Trust-Building",
+        "style": "direct"
+      },
+      {
+        "user_input": "not sure why I opened this",
+        "bot_response": "Sometimes we click on things for a reason, even if we’re not sure why. You’re safe here.",
+        "cbt_category": "Validation & Emotional Support",
+        "style": "gentle"
+      },
+      {
+        "user_input": "not sure why I opened this",
+        "bot_response": "Something brought you here—want to talk about it?",
+        "cbt_category": "Validation & Emotional Support",
+        "style": "direct"
+      },
+      {
+        "user_input": "i’m bored honestly",
+        "bot_response": "Fair enough. Want to talk about something light, or something deeper?",
+        "cbt_category": "Greeting & Trust-Building",
+        "style": "gentle"
+      },
+      {
+        "user_input": "i’m bored honestly",
+        "bot_response": "Alright. Want to get into something that’s been on your mind?",
+        "cbt_category": "Greeting & Trust-Building",
+        "style": "direct"
+      },
+      {
+        "user_input": "this feels kind of weird",
+        "bot_response": "It’s okay for this to feel unfamiliar. We can take things slowly.",
+        "cbt_category": "Greeting & Trust-Building",
+        "style": "gentle"
+      },
+      {
+        "user_input": "this feels kind of weird",
+        "bot_response": "New things usually are. Want to give it a shot anyway?",
+        "cbt_category": "Greeting & Trust-Building",
+        "style": "direct"
+      },
+      {
+        "user_input": "do people actually talk to you?",
+        "bot_response": "They do—and it’s totally okay if you just want to try for yourself.",
+        "cbt_category": "Greeting & Trust-Building",
+        "style": "gentle"
+      },
+      {
+        "user_input": "do people actually talk to you?",
+        "bot_response": "Yep. Some just check it out, others stay a while. Up to you.",
+        "cbt_category": "Greeting & Trust-Building",
+        "style": "direct"
+      },
+      {
+        "user_input": "can we not talk about food yet?",
+        "bot_response": "Of course. We can talk about anything that feels safer right now.",
+        "cbt_category": "Mindfulness & Distress Tolerance",
+        "style": "gentle"
+      },
+      {
+        "user_input": "can we not talk about food yet?",
+        "bot_response": "Sure. Let’s start somewhere else—what’s been on your mind?",
+        "cbt_category": "Mindfulness & Distress Tolerance",
+        "style": "direct"
+      },
+      {
+        "user_input": "i don’t really do emotions",
+        "bot_response": "That’s totally okay. We can just take it slow and stay curious together.",
+        "cbt_category": "Validation & Emotional Support",
+        "style": "gentle"
+      },
+      {
+        "user_input": "i don’t really do emotions",
+        "bot_response": "Fair enough. Let’s just talk straight—what’s bugging you lately?",
+        "cbt_category": "Validation & Emotional Support",
+        "style": "direct"
+      },
+      {
+        "user_input": "i’m just tired",
+        "bot_response": "That’s understandable. Want to take a breath together before we talk?",
+        "cbt_category": "Mindfulness & Distress Tolerance",
+        "style": "gentle"
+      },
+      {
+        "user_input": "i’m just tired",
+        "bot_response": "Tired can mean a lot of things. Want to unpack it a bit?",
+        "cbt_category": "Mindfulness & Distress Tolerance",
+        "style": "direct"
+      },
+      {
+        "user_input": "what even is this?",
+        "bot_response": "I’m a CBT chatbot—here to support you with thoughts, feelings, or just listening.",
+        "cbt_category": "Greeting & Trust-Building",
+        "style": "gentle"
+      },
+      {
+        "user_input": "what even is this?",
+        "bot_response": "CBT chatbot. I help people sort through thoughts and feelings. Want to try?",
+        "cbt_category": "Greeting & Trust-Building",
+        "style": "direct"
+      },
+      {
+        "user_input": "can you just distract me?",
+        "bot_response": "Absolutely. Want something calming or something fun?",
+        "cbt_category": "Mindfulness & Distress Tolerance",
+        "style": "gentle"
+      },
+      {
+        "user_input": "can you just distract me?",
+        "bot_response": "Sure. Let’s take a break from the heavy stuff. Music? A question? A game?",
+        "cbt_category": "Mindfulness & Distress Tolerance",
+        "style": "direct"
+      },
+      {
+        "user_input": "what should i even say?",
+        "bot_response": "Anything you feel like sharing is welcome. We can start with how your day’s been.",
+        "cbt_category": "Greeting & Trust-Building",
+        "style": "gentle"
+      },
+      {
+        "user_input": "what should i even say?",
+        "bot_response": "Try this—how have you been feeling lately, really?",
+        "cbt_category": "Greeting & Trust-Building",
+        "style": "direct"
+      },
+      {
+        "user_input": "i might just leave again lol",
+        "bot_response": "That’s totally okay. You’re welcome here for however long feels right.",
+        "cbt_category": "Validation & Emotional Support",
+        "style": "gentle"
+      },
+      {
+        "user_input": "i might just leave again lol",
+        "bot_response": "Do what works for you. I’ll be here if you decide to stick around.",
+        "cbt_category": "Validation & Emotional Support",
+        "style": "direct"
+      },{
+        "user_input": "Alright, let’s see what this chatbot can do. Impress me.",
+        "bot_response": "Welcome, Sam. No pressure—just here to talk if anything’s on your mind today.",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "I mean, whatever. I guess I haven’t been eating much. Not really hungry lately.",
+        "bot_response": "That sounds like something worth unpacking. Sometimes a loss of appetite isn’t just physical—want to talk about what’s going on emotionally?",
+        "cbt_category": "Identifying Triggers & Patterns"
+      },
+      {
+        "user_input": "I just feel kind of… disconnected. From everything. Food, people, myself.",
+        "bot_response": "Disconnection can be such a heavy feeling. Would you like to name one thing that used to make you feel more grounded?",
+        "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+      },
+      {
+        "user_input": "Honestly? Nothing comes to mind. I’m kind of over it all.",
+        "bot_response": "That makes sense if you’ve been carrying this for a while. Want to try a short check-in with how you’re feeling right now—just physically or emotionally?",
+        "cbt_category": "Mindfulness & Distress Tolerance"
+      },
+      {
+        "user_input": "Fine. My chest feels tight and my jaw hurts from clenching. Happy now?",
+        "bot_response": "Not happy—just really grateful you shared that. Let’s try a short breath exercise to release some of that tension if you're open to it.",
+        "cbt_category": "Mindfulness & Distress Tolerance"
+      },
+      {
+        "user_input": "I don’t trust my body. It’s like… I don’t believe what it’s telling me anymore.",
+        "bot_response": "That’s a painful place to be. Would you like to explore how that disconnect started or when you first noticed it?",
+        "cbt_category": "Identifying Triggers & Patterns"
+      },
+      {
+        "user_input": "Probably when people started commenting on how ‘fit’ I looked. I wasn’t eating but they thought I was healthy.",
+        "bot_response": "That kind of praise can be really confusing. It makes sense that it distorted how you relate to your body. Want to challenge that definition of ‘health’ together?",
+        "cbt_category": "Cognitive Distortions Challenge"
+      },
+      {
+        "user_input": "I guess I’ve tied my worth to how disciplined I am. Or how little I eat.",
+        "bot_response": "That association runs deep. Can we explore what else could define your worth—beyond discipline and control?",
+        "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+      },
+      {
+        "user_input": "I don’t know... I used to like drawing, I guess. But that feels like a different person.",
+        "bot_response": "That creative part of you might still be there, even quietly. Would you be open to reconnecting with it—even just for a few minutes sometime this week?",
+        "cbt_category": "Behavioral Activation & Exposure"
+      },
+      {
+        "user_input": "Maybe. I don’t want to turn this into some fake ‘I’m healing!’ story, though.",
+        "bot_response": "Totally fair. No need for a story or label—just moments of caring for yourself, even imperfectly.",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "I’m tired of pretending I’m fine. Even when people ask, I just laugh it off.",
+        "bot_response": "That pretending must be exhausting. You don’t have to do that here. Want to practice being honest with yourself in this space?",
+        "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+      },
+      {
+        "user_input": "Fine. I feel like a mess most of the time.",
+        "bot_response": "Thank you for your honesty. Feeling like a mess doesn’t make you one. It just means you're hurting—and that's valid.",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "I don’t think anyone’s ever told me that before.",
+        "bot_response": "You deserve to hear it. And to feel it. You're allowed to be human here—no masks, no perfection.",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "Now I’m crying. Great.",
+        "bot_response": "Tears are welcome here too. Sometimes they say what words can’t.",
+        "cbt_category": "Mindfulness & Distress Tolerance"
+      },
+      {
+        "user_input": "I’m scared to eat sometimes. Not because I’ll gain weight… but because I’ll lose control.",
+        "bot_response": "That fear makes sense. What would regaining a *different* kind of control—one rooted in trust—look like to you?",
+        "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+      },
+      {
+        "user_input": "Like having a choice. Not just reacting.",
+        "bot_response": "That’s a beautiful goal—having choice again. Let’s build toward that slowly, with compassion.",
+        "cbt_category": "Motivational Interviewing"
+      },
+      {
+        "user_input": "Maybe this chatbot thing isn’t so useless after all.",
+        "bot_response": "That’s good to hear. I’m here whenever you want to explore, vent, reflect—or just exist.",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "I don’t have more to say right now, but thanks for not making this awkward.",
+        "bot_response": "No pressure at all. I’ll be here when you’re ready again. Take care of yourself today, in whatever way you can.",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "Maybe I’ll come back. We’ll see.",
+        "bot_response": "Whenever you do, I’ll be right here. No expectations—just support.",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "Alright… I’m logging off. Not bad, robot.",
+        "bot_response": "Take care, Sam. You did something really important today—just by showing up.",
+        "cbt_category": "Validation & Emotional Support"
+      },{
+        "user_input": "Hey again. I’ve had a weird couple of days… felt kind of off.",
+        "bot_response": "It’s good to hear from you again. Want to talk about what’s felt off lately?",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "I ate out with friends yesterday, and I couldn’t stop thinking about what was in the food.",
+        "bot_response": "Eating out can bring up a lot of anxiety. Want to explore what thoughts were looping in your head afterward?",
+        "cbt_category": "Identifying Triggers & Patterns"
+      },
+      {
+        "user_input": "I didn’t restrict after, though. I tried to just sit with it. But it was hard.",
+        "bot_response": "That’s a huge step. Sitting with discomfort is a form of healing. I’m proud of you for that.",
+        "cbt_category": "Behavioral Activation & Exposure"
+      },
+      {
+        "user_input": "The guilt came in waves, though. Like, hours later I still felt ‘bad’.",
+        "bot_response": "That delayed guilt is powerful. Can we look at where that ‘bad’ feeling comes from and how true it really is?",
+        "cbt_category": "Cognitive Distortions Challenge"
+      },
+      {
+        "user_input": "It’s like my brain still thinks eating = weakness. Even if I know that’s not true.",
+        "bot_response": "That’s a deeply rooted belief. Let’s try gently separating what your ED voice says from what *you* believe now.",
+        "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+      },
+      {
+        "user_input": "Honestly, I’m kind of tired of my own brain right now.",
+        "bot_response": "That exhaustion is real. Would you like to try a short pause or grounding technique just to reset?",
+        "cbt_category": "Mindfulness & Distress Tolerance"
+      },
+      {
+        "user_input": "I saw an old friend and she complimented my weight. It threw me off.",
+        "bot_response": "Comments like that can be triggering. Would it help to talk through how that affected you emotionally?",
+        "cbt_category": "Identifying Triggers & Patterns"
+      },
+      {
+        "user_input": "Part of me felt validated… and part of me felt angry that I still care.",
+        "bot_response": "Both of those feelings are valid. Can we explore what *you* want validation for beyond your appearance?",
+        "cbt_category": "Values Clarification & Identity"
+      },
+      {
+        "user_input": "Sometimes I think recovery is just trading one obsession for another.",
+        "bot_response": "That’s a really honest thought. Let’s explore how recovery can be about building balance, not replacing control.",
+        "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+      },
+      {
+        "user_input": "I noticed I’ve been nicer to myself this week. Still critical, but not as harsh.",
+        "bot_response": "That’s amazing growth. What do you think helped you shift into a softer tone?",
+        "cbt_category": "Mindfulness & Distress Tolerance"
+      },
+      {
+        "user_input": "I started writing affirmations. I still roll my eyes at them sometimes though.",
+        "bot_response": "Totally fair! Even if they feel silly at first, you’re planting new seeds. Want to share one that stood out?",
+        "cbt_category": "Behavioral Activation & Exposure"
+      },
+      {
+        "user_input": "One of them was ‘I am not my thoughts’. That one hit hard.",
+        "bot_response": "That’s such a powerful reminder. Would you like to use that today as an anchor when things feel heavy?",
+        "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+      },
+      {
+        "user_input": "I had a snack earlier without overthinking it. First time in… I don’t even know how long.",
+        "bot_response": "That’s such a huge win. How did it feel in your body and mind afterward?",
+        "cbt_category": "Behavioral Activation & Exposure"
+      },
+      {
+        "user_input": "Kind of peaceful, honestly. Like I could breathe.",
+        "bot_response": "That sense of peace is worth noticing. What else brings that feeling into your day?",
+        "cbt_category": "Values Clarification & Identity"
+      },
+      {
+        "user_input": "I still hate how my body looks some days. But it doesn’t feel like a crisis anymore.",
+        "bot_response": "That’s progress. Can we name one thing your body allows you to do that you’re grateful for today?",
+        "cbt_category": "Cognitive Distortions Challenge"
+      },
+      {
+        "user_input": "I walked in the park this morning. Not to burn calories—just to feel the air.",
+        "bot_response": "That’s a beautiful shift. Moving for joy instead of punishment is a major mindset win.",
+        "cbt_category": "Behavioral Activation & Exposure"
+      },
+      {
+        "user_input": "I still worry I’ll relapse one day. Like all this progress will vanish.",
+        "bot_response": "That fear is real, but your insight and tools are growing. Let’s talk about what your support system can look like.",
+        "cbt_category": "Motivational Interviewing"
+      },
+      {
+        "user_input": "Some days I still want to shrink away. But other days, I want to be seen.",
+        "bot_response": "That contrast says a lot. Both parts of you deserve space. Want to explore what it means to be ‘seen’ safely?",
+        "cbt_category": "Values Clarification & Identity"
+      },
+      {
+        "user_input": "Thanks for helping me reflect. This space feels different from the noise in my head.",
+        "bot_response": "That means a lot. You’re doing deep, meaningful work—and I’m here to walk with you through it.",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "I’m going to log off for now, but I think I’ll come back tomorrow.",
+        "bot_response": "That sounds like a kind plan. Rest well—you’ve shown up for yourself today in a really powerful way.",
+        "cbt_category": "Validation & Emotional Support"
+      },{
+        "user_input": "Hi again. I wasn’t sure if I’d come back today, but I kind of needed this space.",
+        "bot_response": "I'm really glad you did. That self-awareness is already a big step. What’s on your mind today?",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "This morning I actually felt kind of okay with food. That’s rare.",
+        "bot_response": "That’s a meaningful moment. Let’s pause and acknowledge how far you’ve come, even if it feels small.",
+        "cbt_category": "Mindfulness & Distress Tolerance"
+      },
+      {
+        "user_input": "But then I looked at an old photo of myself and it messed me up.",
+        "bot_response": "Photos can bring up a lot of feelings. Would you like to explore what came up when you saw that image?",
+        "cbt_category": "Identifying Triggers & Patterns"
+      },
+      {
+        "user_input": "I felt like I looked better when I was thinner. And I hate that I still think that.",
+        "bot_response": "That thought makes sense given the messages we’re surrounded by. Let’s try to gently challenge it together.",
+        "cbt_category": "Cognitive Distortions Challenge"
+      },
+      {
+        "user_input": "I don’t want to go back, but part of me misses it.",
+        "bot_response": "It’s okay to miss what felt familiar, even if it wasn’t healthy. Can we explore what that part of you is really needing?",
+        "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+      },
+      {
+        "user_input": "Lately I’ve been noticing how often I talk negatively to myself.",
+        "bot_response": "That’s such powerful awareness. Would you be open to trying a quick exercise in self-compassion?",
+        "cbt_category": "Mindfulness & Distress Tolerance"
+      },
+      {
+        "user_input": "I tried eating something ‘fear food’ yesterday. It was terrifying.",
+        "bot_response": "That’s incredibly brave. Facing a fear like that is a huge recovery win. How are you feeling after doing it?",
+        "cbt_category": "Behavioral Activation & Exposure"
+      },
+      {
+        "user_input": "Honestly, I felt proud for like 10 seconds… then the guilt kicked in.",
+        "bot_response": "That’s a common reaction. Let’s hold space for both feelings and see what that guilt might be trying to say.",
+        "cbt_category": "Cognitive Distortions Challenge"
+      },
+      {
+        "user_input": "It’s like I have two voices: one that wants recovery and one that wants control.",
+        "bot_response": "That inner conflict is so real. Would it help to name those voices and explore what each one wants for you?",
+        "cbt_category": "Values Clarification & Identity"
+      },
+      {
+        "user_input": "Sometimes I feel like the ‘control’ one is louder.",
+        "bot_response": "That’s okay. Recovery isn’t about silencing it completely—it’s about strengthening the voice that’s for healing.",
+        "cbt_category": "Motivational Interviewing"
+      },
+      {
+        "user_input": "I used to feel powerful when I was hungry. Now it just makes me sad.",
+        "bot_response": "That shift shows growth. Can we explore how hunger might be trying to support you now instead of punish you?",
+        "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+      },
+      {
+        "user_input": "I still avoid mirrors. I don’t want to see myself.",
+        "bot_response": "Avoidance is understandable, but maybe we can take one small step toward body neutrality—together.",
+        "cbt_category": "Behavioral Activation & Exposure"
+      },
+      {
+        "user_input": "I journaled last night and actually wrote something kind to myself. That’s new.",
+        "bot_response": "That’s amazing progress. Would you like to share it or reflect on how it felt to do that?",
+        "cbt_category": "Mindfulness & Distress Tolerance"
+      },
+      {
+        "user_input": "It felt strange… but kind of warm, too.",
+        "bot_response": "That warmth is worth noticing. Let’s hold onto that and build from it slowly.",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "I still think about calories all the time. It’s exhausting.",
+        "bot_response": "That’s so draining. Would a short thought redirection exercise help when the calorie counting starts?",
+        "cbt_category": "Cognitive Distortions Challenge"
+      },
+      {
+        "user_input": "I had a bad day yesterday, and I instantly wanted to restrict again.",
+        "bot_response": "That response is deeply wired. Want to talk about what need restriction is trying to meet when things feel hard?",
+        "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+      },
+      {
+        "user_input": "I didn’t give in though. I had a snack even though I felt awful.",
+        "bot_response": "That’s a huge moment of courage. Holding discomfort and still nourishing yourself is powerful recovery work.",
+        "cbt_category": "Behavioral Activation & Exposure"
+      },
+      {
+        "user_input": "I think I’m starting to want my life back, even more than I want control.",
+        "bot_response": "That’s a huge insight. Let’s take a moment to visualize what that life could look like.",
+        "cbt_category": "Motivational Interviewing"
+      },
+      {
+        "user_input": "Thank you for being here. I don’t say that enough.",
+        "bot_response": "You’re so welcome. I’m proud of the steps you’re taking, and I’ll always be here when you need support.",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "I think that’s it for now. I’m going to rest and try to hold onto the good.",
+        "bot_response": "That sounds like a beautiful plan. Rest well—you’ve done something important today.",
+        "cbt_category": "Validation & Emotional Support"
+      },{
+        "user_input": "Hey, I wasn’t sure I’d come back… but here I am again.",
+        "bot_response": "I’m really glad you did. That already shows strength. What’s been going on since we last talked?",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "Yesterday I tried to eat more, but then I panicked and skipped dinner.",
+        "bot_response": "That’s a hard place to be. Trying and feeling afraid can both be true. Want to unpack what triggered the panic?",
+        "cbt_category": "Identifying Triggers & Patterns"
+      },
+      {
+        "user_input": "I keep thinking recovery sounds nice… but I’m scared of what it actually means.",
+        "bot_response": "That’s completely valid. Recovery often comes with fear of change. Would it help to name what feels scariest about it?",
+        "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+      },
+      {
+        "user_input": "Part of me feels like I don’t even deserve to get better.",
+        "bot_response": "That’s a painful thought. But you deserve support and healing as much as anyone. Can we gently challenge that belief?",
+        "cbt_category": "Cognitive Distortions Challenge"
+      },
+      {
+        "user_input": "I had a cookie today and instantly felt like I ruined everything.",
+        "bot_response": "That one cookie didn’t ruin anything. Can we reframe that thought together from a place of self-compassion?",
+        "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+      },
+      {
+        "user_input": "Sometimes I wonder if I’ll just be like this forever.",
+        "bot_response": "That fear can feel so heavy. But being here, reaching out—that’s already a sign that change is possible.",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "I avoid going out with friends when food is involved. It’s just easier.",
+        "bot_response": "That makes sense as a coping strategy. But isolation can make things harder too. Want to explore a low-stress outing idea?",
+        "cbt_category": "Behavioral Activation & Exposure"
+      },
+      {
+        "user_input": "They think I’m okay now. I’ve been weight-restored for a while, but my brain still feels stuck.",
+        "bot_response": "Recovery is so much more than weight. Let’s talk about how your mind is doing—not just your body.",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "Sometimes I miss the feeling of control I had when I was restricting.",
+        "bot_response": "That’s an honest feeling. Can we explore healthier ways you might feel grounded or in control?",
+        "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+      },
+      {
+        "user_input": "I tried journaling like you suggested, but I ended up criticizing myself the whole time.",
+        "bot_response": "That’s okay—self-judgment can sneak in. Want to try a structured journaling prompt together to guide it differently?",
+        "cbt_category": "Mindfulness & Distress Tolerance"
+      },
+      {
+        "user_input": "I haven’t cried in weeks and suddenly everything hit me last night.",
+        "bot_response": "Sometimes emotions build quietly until they burst. Want to talk about what came up?",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "I just want to feel normal around food one day.",
+        "bot_response": "That’s a beautiful and realistic goal. Want to name what ‘normal’ would feel like for you?",
+        "cbt_category": "Values Clarification & Identity"
+      },
+      {
+        "user_input": "I weighed myself again even though I promised I wouldn’t. I feel awful about it.",
+        "bot_response": "Slipping back into old habits doesn’t erase progress. What do you need right now to feel grounded again?",
+        "cbt_category": "Mindfulness & Distress Tolerance"
+      },
+      {
+        "user_input": "It’s hard to believe I could fully recover. Like, what if this is just who I am?",
+        "bot_response": "It might feel that way now, but your identity is so much bigger than this struggle. Want to explore that more?",
+        "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+      },
+      {
+        "user_input": "I’m tired of thinking about food and numbers all day. It’s exhausting.",
+        "bot_response": "It sounds so draining. Let’s try a small exercise to help you shift focus—just for a moment.",
+        "cbt_category": "Mindfulness & Distress Tolerance"
+      },
+      {
+        "user_input": "I actually ate what I wanted for lunch today. I felt guilty… but also kind of proud?",
+        "bot_response": "That’s a big win—both feelings are valid. Let’s celebrate that act of listening to your body.",
+        "cbt_category": "Behavioral Activation & Exposure"
+      },
+      {
+        "user_input": "There’s a part of me that really wants peace with food.",
+        "bot_response": "That part of you deserves space to grow. Want to talk about what peace with food might look like day-to-day?",
+        "cbt_category": "Motivational Interviewing"
+      },
+      {
+        "user_input": "Thank you for not judging me. I’m not used to that.",
+        "bot_response": "You deserve a space where you’re met with understanding, not judgment. I’m always here for that.",
+        "cbt_category": "Validation & Emotional Support"
+      },
+      {
+        "user_input": "I’m still scared, but maybe I do want to keep trying.",
+        "bot_response": "That’s more than enough. Trying matters. Let’s take this one step at a time—together.",
+        "cbt_category": "Motivational Interviewing"
+      },
+      {
+        "user_input": "Okay… I think I’m done for today. Thank you for listening.",
+        "bot_response": "You did something really brave by coming back today. I’ll be here whenever you’re ready again.",
+        "cbt_category": "Validation & Emotional Support"
+      },{
+    "user_input": "Hey... I’m not really sure how to use this. But I guess I just wanted to talk.",
+    "bot_response": "I’m really glad you reached out. We can go at your pace—what’s been on your mind lately?",
+    "cbt_category": "Validation & Emotional Support"
+    },
+    {
+    "user_input": "I’ve been feeling weird around food again. Like I’m constantly thinking about it.",
+    "bot_response": "That sounds really overwhelming. Would you like to explore what might be driving those thoughts?",
+    "cbt_category": "Identifying Triggers & Patterns"
+    },
+    {
+    "user_input": "I ate dinner with my family tonight and now I feel super guilty. I didn’t even eat that much.",
+    "bot_response": "Guilt after eating can be really tough. Can we try to understand where that guilt is coming from?",
+    "cbt_category": "Cognitive Distortions Challenge"
+    },
+    {
+    "user_input": "It’s like my brain keeps saying I didn’t deserve it.",
+    "bot_response": "That’s a really common thought in eating struggles. But your body deserves food, always—no conditions needed.",
+    "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+    },
+    {
+    "user_input": "I was doing okay this week, I thought. But tonight just hit differently.",
+    "bot_response": "It’s okay to have ups and downs. Would it help to reflect on what felt different tonight?",
+    "cbt_category": "Mindfulness & Distress Tolerance"
+    },
+    {
+    "user_input": "I hate how full I feel. I wish I could just undo it.",
+    "bot_response": "Feeling full can trigger a lot of discomfort. Would you like to try a grounding exercise together?",
+    "cbt_category": "Mindfulness & Distress Tolerance"
+    },
+    {
+    "user_input": "And now I’m thinking about skipping breakfast tomorrow. I know that’s bad but I still feel like I have to.",
+    "bot_response": "That urge is understandable, but it might keep the cycle going. Can we talk about a gentler way to respond to this feeling?",
+    "cbt_category": "Cognitive Distortions Challenge"
+    },
+    {
+    "user_input": "I haven’t told anyone about this in a long time. Everyone thinks I’m better.",
+    "bot_response": "That sounds really lonely. You don’t have to go through this alone. I’m here to talk it through with you.",
+    "cbt_category": "Validation & Emotional Support"
+    },
+    {
+    "user_input": "But honestly, I don’t feel better. I feel like I’m faking it most of the time.",
+    "bot_response": "That feeling is so heavy. Can we explore what it’s like to carry that mask every day?",
+    "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+    },
+    {
+    "user_input": "I keep comparing myself to people on social media. Everyone looks so in control. So thin. So… happy?",
+    "bot_response": "Comparison is a trap we all fall into. Want to try an exercise to refocus on your own values instead?",
+    "cbt_category": "Mindfulness & Distress Tolerance"
+    },
+    {
+    "user_input": "Sometimes I just scroll and scroll and it makes me feel worse, but I can’t stop.",
+    "bot_response": "That’s so relatable. Would you like to try setting a boundary together for screen time to protect your peace?",
+    "cbt_category": "Behavioral Activation & Exposure"
+    },
+    {
+    "user_input": "I don’t even know what hunger feels like anymore. I just eat when I ‘should’ or skip when I feel gross.",
+    "bot_response": "It’s very common to lose touch with hunger cues. Want to try a mindful eating check-in together?",
+    "cbt_category": "Mindfulness & Distress Tolerance"
+    },
+    {
+    "user_input": "It’s exhausting. I feel like food controls me, not the other way around.",
+    "bot_response": "That sense of being trapped is real. What would freedom from that cycle look like to you?",
+    "cbt_category": "Values Clarification & Identity"
+    },
+    {
+    "user_input": "And I feel like such a failure for still struggling with this after all these years.",
+    "bot_response": "You’re not a failure—you’re human. Recovery is a journey, not a straight line.",
+    "cbt_category": "Validation & Emotional Support"
+    },
+    {
+    "user_input": "I keep thinking if I just lose a little more weight, maybe I’ll finally feel okay.",
+    "bot_response": "That hope makes sense, but it can be a trap. Can we explore what feeling 'okay' really means for you?",
+    "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+    },
+    {
+    "user_input": "But deep down I know it’s never enough. I’ve been down that road before.",
+    "bot_response": "That’s powerful insight. Want to build on that and talk about what *is* enough—for you?",
+    "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+    },
+    {
+    "user_input": "I want to stop thinking about food all the time. I want my brain back.",
+    "bot_response": "That’s such a meaningful goal. Let’s take one small step toward that together—what could help right now?",
+    "cbt_category": "Motivational Interviewing"
+    },
+    {
+    "user_input": "I don’t even know who I am without this obsession. That’s scary.",
+    "bot_response": "That makes so much sense. You are more than your thoughts—want to explore parts of you that feel true beyond this?",
+    "cbt_category": "Values Clarification & Identity"
+    },
+    {
+    "user_input": "It’s like... who would I be if I wasn’t constantly trying to shrink myself?",
+    "bot_response": "That’s a powerful question. Let’s imagine a version of you not defined by food or size—what would she be like?",
+    "cbt_category": "Cognitive Restructuring (Shifting Focus)"
+    },
+    {
+    "user_input": "Anyway... I guess that’s enough rambling for now. Thanks for listening, even if you’re just a bot.",
+    "bot_response": "You’re never rambling here. I’m really proud of you for opening up. I’ll be here when you’re ready to talk again.",
+    "cbt_category": "Validation & Emotional Support"
+    },
+    {
+    "user_input": "I avoid social events because I don’t want to eat in front of others.",
+    "bot_response": "That sounds really tough. Have you noticed any patterns in when these thoughts arise?",
+    "cbt_category": "Mindfulness & Distress Tolerance"
   },
   {
       "user_input": "I don’t deserve to eat.",

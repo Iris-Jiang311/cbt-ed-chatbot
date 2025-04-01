@@ -7,7 +7,7 @@ import '../styles/Chat.css';
 
 const BOT_AVATAR = '/chatbot_avatar.png';
 
-function Chat({ userEmail }) {
+function Chat({ userEmail, chatStyle }) {
   const [messages, setMessages] = useState([]);
   const [userInput, setUserInput] = useState('');
   const [currentView, setCurrentView] = useState('chat'); // ✅ 控制当前显示的组件
@@ -59,16 +59,16 @@ function Chat({ userEmail }) {
 
   // **🌱 渲染不同的界面**
   if (currentView === 'challengeNegativeThoughts') {
-    return <ChallengeNegativeThoughts username={userEmail} onExit={() => setCurrentView('chat')} />;
+    return  <ChallengeNegativeThoughts username={userEmail} chatStyle={chatStyle} onExit={() => setCurrentView('chat')} />;
   }
   if (currentView === 'trackMyMood') {
-    return <TrackMyMood username={userEmail} onExit={() => setCurrentView('chat')} />;
+    return <TrackMyMood username={userEmail} chatStyle={chatStyle} onExit={() => setCurrentView('chat')} />;
   }
   if (currentView === 'logMyBehavior') {
-    return <LogMyBehavior username={userEmail} onExit={() => setCurrentView('chat')} />;
+    return <LogMyBehavior username={userEmail} chatStyle={chatStyle} onExit={() => setCurrentView('chat')} />;
   }
   if (currentView === 'getSelfCareTips') {
-    return <GetSelfCareTips username={userEmail} onExit={() => setCurrentView('chat')} />;
+    return <GetSelfCareTips username={userEmail} chatStyle={chatStyle} onExit={() => setCurrentView('chat')} />;
   }
 
   return (

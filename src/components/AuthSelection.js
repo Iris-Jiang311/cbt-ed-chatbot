@@ -8,10 +8,10 @@ const BOT_AVATAR = "/chatbot_avatar.png";
 
 function AuthSelection({ onAuthSuccess }) {
   const [authMode, setAuthMode] = useState(null);
-  const [user, setUser] = useState(null);
+  const [userEmail, setUser] = useState(null);
 
-  if (user) {
-    return <ChatStyleSelection onSelectStyle={onAuthSuccess} />;
+  if (userEmail) {
+    return <ChatStyleSelection onSelectStyle={(style) => onAuthSuccess(userEmail, style)} />;
   }
 
   if (authMode === "login") {
