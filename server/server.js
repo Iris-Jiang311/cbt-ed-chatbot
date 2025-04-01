@@ -11,18 +11,19 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-const serviceAccount = require("./firebaseServiceAccount.json");
+// const serviceAccount = require("./firebaseServiceAccount.json");
+// admin.initializeApp({
+//   credential: admin.credential.cert(serviceAccount),
+// });
+
+const serviceAccount = JSON.parse(
+  process.env.FIREBASE_SERVICE_ACCOUNT.replace(/\\n/g, '\n')
+);
+
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
 
-
-
-// const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT.replace(/\\n/g, '\n'));
-
-// admin.initializeApp({
-//   credential: admin.credential.cert(serviceAccount),
-// });
 
 
 const db = admin.firestore();
