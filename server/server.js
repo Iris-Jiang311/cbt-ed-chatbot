@@ -37,7 +37,7 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 
 app.use(cors({
-  origin: ["http://localhost:3000", "https://merry-gecko-690ad7.netlify.app"],
+  origin: ["http://localhost:3000", "https://ccbt-chatbot.netlify.app"],
   methods: ["GET", "POST", "OPTIONS"],
   allowedHeaders: ["Content-Type"],
   credentials: true
