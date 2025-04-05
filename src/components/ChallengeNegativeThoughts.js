@@ -5,6 +5,7 @@ import { collection, addDoc } from "firebase/firestore";
 import "../styles/Chat.css";
 
 const BOT_AVATAR = "/chatbot_avatar.png";
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5001";
 
 function ChallengeNegativeThoughts({ onExit, username, chatStyle }) {
   const [messages, setMessages] = useState([
@@ -24,7 +25,7 @@ function ChallengeNegativeThoughts({ onExit, username, chatStyle }) {
     setUserInput("");
   
     try {
-      const response = await axios.post("http://localhost:5001/chatbot", {
+      const response = await axios.post(`${API_URL}/chatbot`, {
         message: userInput,
         username: username || "guest",
         chatStyle: chatStyle || "direct"
