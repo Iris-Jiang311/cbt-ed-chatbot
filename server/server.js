@@ -8,45 +8,22 @@ const path = require("path");
 const vader = require("vader-sentiment");
 const admin = require("firebase-admin");
 
-// ✅ 检查 Firebase 环境变量
-["FIREBASE_PROJECT_ID", "FIREBASE_PRIVATE_KEY_ID", "FIREBASE_PRIVATE_KEY", "FIREBASE_CLIENT_EMAIL", "FIREBASE_CLIENT_ID"].forEach((key) => {
-  if (!process.env[key]) {
-    console.error(`❌ Missing required env var: ${key}`);
-    process.exit(1);
-  }
-});
-
-// ✅ 清理私钥格式
-let rawKey = process.env.FIREBASE_PRIVATE_KEY;
-if (rawKey.startsWith('"') && rawKey.endsWith('"')) {
-  rawKey = rawKey.slice(1, -1);
+// ✅ 检查并解析完整的 service account JSON
+if (!process.env.FIREBASE_SERVICE_ACCOUNT) {
+  console.error("❌ Missing FIREBASE_SERVICE_ACCOUNT environment variable.");
+  process.exit(1);
 }
-const cleanPrivateKey = rawKey.replace(/\\n/g, '\n');
-
-// ✅ 构建 serviceAccount 对象
-const serviceAccount = {
-  type: "service_account",
-  project_id: process.env.FIREBASE_PROJECT_ID,
-  private_key_id: process.env.FIREBASE_PRIVATE_KEY_ID,
-  private_key: cleanPrivateKey,
-  client_email: process.env.FIREBASE_CLIENT_EMAIL,
-  client_id: process.env.FIREBASE_CLIENT_ID,
-  auth_uri: "https://accounts.google.com/o/oauth2/auth",
-  token_uri: "https://oauth2.googleapis.com/token",
-  auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
-  client_x509_cert_url: `https://www.googleapis.com/robot/v1/metadata/x509/${encodeURIComponent(process.env.FIREBASE_CLIENT_EMAIL)}`
-};
-
-// ✅ 写入临时 JSON 文件以供 Firebase Admin 使用
-const tempPath = path.join(__dirname, "tmp");
-const keyPath = path.join(tempPath, "firebase-key.json");
-
-if (!fs.existsSync(tempPath)) fs.mkdirSync(tempPath);
-fs.writeFileSync(keyPath, JSON.stringify(serviceAccount, null, 2));
+let serviceAccount;
+try {
+  serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+} catch (error) {
+  console.error("❌ Failed to parse FIREBASE_SERVICE_ACCOUNT JSON:", error);
+  process.exit(1);
+}
 
 // ✅ 初始化 Firebase Admin SDK
 admin.initializeApp({
-  credential: admin.credential.cert(require(keyPath)),
+  credential: admin.credential.cert(serviceAccount),
 });
 const db = admin.firestore();
 
@@ -189,7 +166,7 @@ app.post("/chatbot", async (req, res) => {
     responseText += "\n\n💬 It seems you're going through a tough time. Consider seeking professional support. You can click the 💡 floating widget at the bottom right for help.";
   }
 
-  // 储存聊天记录（如有需要可取消注释）
+  // 如需存储聊天记录，可取消下面注释
   /*
   await db.collection("users").doc(userId).collection("chat_logs").add({
     user_input: message,
