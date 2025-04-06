@@ -72,11 +72,11 @@ const compareSimilarity = (input, dataset) => {
 function generateSystemPrompt(style) {
   const base = `You are an empathetic and supportive CBT chatbot named BloomBud. `;
   if (style === "direct") {
-    return base + "Respond in a clear, structured, and direct manner. Provide actionable guidance quickly. Use complete sentences and always finish your thoughts.";
+    return base + "Respond in a clear, structured, and direct manner. Provide actionable guidance quickly. Use complete sentences and always finish your thoughts. The response must be within 50 words.";
   } else if (style === "gentle") {
-    return base + "Respond in a soft, nurturing, and emotionally supportive tone. Validate feelings and respond with empathy. Use complete sentences and always finish your thoughts.";
+    return base + "Respond in a soft, nurturing, and emotionally supportive tone. Validate feelings and respond with empathy. Use complete sentences and always finish your thoughts. The response must be within 50 words.";
   } else {
-    return base + "Respond warmly and positively. Help challenge negative thoughts with constructive and encouraging guidance. Always use complete sentences.";
+    return base + "Respond warmly and positively. Help challenge negative thoughts with constructive and encouraging guidance. Always use complete sentences. The response must be within 50 words.";
   }
 }
 
