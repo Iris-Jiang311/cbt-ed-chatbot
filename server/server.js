@@ -146,7 +146,7 @@ app.post("/chatbot", async (req, res) => {
           { role: "system", content: generateSystemPrompt(currentStyle) },
           { role: "user", content: message }
         ],
-        max_tokens: 60,
+        max_tokens: 80,
         temperature: 0.8,
         top_p: 0.9
       });
