@@ -134,7 +134,7 @@ app.post("/chatbot", async (req, res) => {
   let responseSource = "";
   let cbtCategory = "N/A";
 
-  if (bestMatch && highestScore >= 0.9) {
+  if (bestMatch && highestScore >= 0.78) {
     responseText = bestMatch.bot_response;
     responseSource = "Knowledge Base";
     cbtCategory = bestMatch.cbt_category || "N/A";
