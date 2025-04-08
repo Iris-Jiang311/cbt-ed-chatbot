@@ -8,7 +8,7 @@ const path = require("path");
 const vader = require("vader-sentiment");
 const admin = require("firebase-admin");
 
-// ✅ 检查并解析完整的 service account JSON
+// ✅ Firebase 初始化
 if (!process.env.FIREBASE_SERVICE_ACCOUNT) {
   console.error("❌ Missing FIREBASE_SERVICE_ACCOUNT environment variable.");
   process.exit(1);
@@ -20,14 +20,10 @@ try {
   console.error("❌ Failed to parse FIREBASE_SERVICE_ACCOUNT JSON:", error);
   process.exit(1);
 }
-
-// ✅ 初始化 Firebase Admin SDK
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-});
+admin.initializeApp({ credential: admin.credential.cert(serviceAccount) });
 const db = admin.firestore();
 
-// ✅ 初始化 OpenAI
+// ✅ OpenAI 初始化
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
@@ -54,7 +50,7 @@ try {
   console.error("❌ Error loading CBT dataset:", error);
 }
 
-// ✅ 匹配用户输入与数据集
+// ✅ 匹配函数
 const compareSimilarity = (input, dataset) => {
   let bestMatch = null;
   let highestScore = 0.0;
@@ -68,7 +64,7 @@ const compareSimilarity = (input, dataset) => {
   return { bestMatch, highestScore };
 };
 
-// ✅ GPT 回应样式
+// ✅ 系统提示生成
 function generateSystemPrompt(style) {
   const base = `You are an empathetic and supportive CBT chatbot named BloomBud. `;
   if (style === "direct") {
@@ -80,7 +76,7 @@ function generateSystemPrompt(style) {
   }
 }
 
-// ✅ 获取用户状态
+// ✅ 获取/更新用户状态
 async function getUserChatState(userId) {
   const docRef = db.collection("users").doc(userId).collection("meta").doc("chat_state");
   const doc = await docRef.get();
@@ -94,7 +90,22 @@ async function updateUserChatState(userId, newState) {
   await docRef.set(newState, { merge: true });
 }
 
-// ✅ 聊天主接口
+// ✅ 获取历史对话
+async function getRecentChatHistory(userId, limit = 6) {
+  const snapshot = await db.collection("users").doc(userId).collection("chat_logs")
+    .orderBy("timestamp", "desc")
+    .limit(limit)
+    .get();
+
+  const history = [];
+  snapshot.forEach(doc => {
+    const data = doc.data();
+    history.unshift({ user: data.user_input, bot: data.bot_response });
+  });
+  return history;
+}
+
+// ✅ 主聊天接口
 app.post("/chatbot", async (req, res) => {
   const { message, username, chatStyle, source } = req.body;
   const userId = username || "guest@chat.com";
@@ -140,16 +151,24 @@ app.post("/chatbot", async (req, res) => {
     cbtCategory = bestMatch.cbt_category || "N/A";
   } else {
     try {
+      const history = await getRecentChatHistory(userId);
+      const messages = [
+        { role: "system", content: generateSystemPrompt(currentStyle) },
+        ...history.flatMap(pair => [
+          { role: "user", content: pair.user },
+          { role: "assistant", content: pair.bot }
+        ]),
+        { role: "user", content: message }
+      ];
+
       const response = await openai.chat.completions.create({
         model: "gpt-3.5-turbo",
-        messages: [
-          { role: "system", content: generateSystemPrompt(currentStyle) },
-          { role: "user", content: message }
-        ],
+        messages,
         max_tokens: 80,
         temperature: 0.8,
         top_p: 0.9
       });
+
       responseText = response.choices[0].message.content;
       responseSource = "GPT";
     } catch (error) {
@@ -166,8 +185,7 @@ app.post("/chatbot", async (req, res) => {
     responseText += "\n\n💬 It seems you're going through a tough time. Consider seeking professional support. You can click the 💡 floating widget at the bottom right for help.";
   }
 
-  // 如需存储聊天记录，可取消下面注释
-  /*
+  // ✅ 存储聊天记录
   await db.collection("users").doc(userId).collection("chat_logs").add({
     user_input: message,
     bot_response: responseText,
@@ -177,8 +195,8 @@ app.post("/chatbot", async (req, res) => {
     chat_style: currentStyle,
     timestamp: new Date()
   });
-  */
 
+  // ✅ 更新状态
   await updateUserChatState(userId, {
     current_chat_style: currentStyle,
     consecutive_negative_count: negativeCount,
